@@ -2,8 +2,8 @@ import pandas as pd
 import re
 import nltk
 import multiprocessing as mp
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer # type: ignore
+from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
 
 class DataHandler():
     tokenizer = Tokenizer(num_words=10000, oov_token='OOV')

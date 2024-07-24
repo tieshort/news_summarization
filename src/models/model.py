@@ -1,7 +1,7 @@
 import tensorflow as tf
-from tensorflow.keras.layers import Input, Embedding, LSTM, Dense
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.layers import Input, Embedding, LSTM, Dense # type: ignore
+from tensorflow.keras.models import Model # type: ignore
+from tensorflow.keras.optimizers import Adam # type: ignore
 
 class Summarization_model(Model):
     def __init__(self):
