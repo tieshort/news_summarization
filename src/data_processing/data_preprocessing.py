@@ -1,8 +1,10 @@
 from data_processing.data_handler import DataHandler
 from sklearn.model_selection import train_test_split
-from time import perf_counter
 
-data_path = 'H:/Datasets/Summarization/news/data.csv'
+from time import perf_counter
+from config import DATA_PATH
+
+data_path = DATA_PATH
 
 if __name__ == '__main__':
     data = DataHandler.load_data(data_path, nrows=500)
