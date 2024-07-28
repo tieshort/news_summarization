@@ -3,3 +3,4 @@ pandas==2.2.2
 nltk==3.8.1
 scikit-learn==1.5.1
 python-dotenv==1.0.1
+jupyter==1.0.0
